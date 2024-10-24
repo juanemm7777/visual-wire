@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    height: 100px;
+}
+
+.instagram-icon1 {
+    width: 50px;
+    position: absolute; 
+    top: 30px; 
+    right: 235px; 
+}
+
+.logo img {
+    height: 80px; 
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+.menu1 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu1 nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu1 nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu1 nav {
+    position: absolute;
+    top: 30px;
+    right: 300px;
+}
+
+.title {
+    text-align: center; 
+    font-size: 24px; 
+    color: #fff; 
+    font-weight: bold; 
+    margin: 0; 
+    position: relative;
+    top: 40px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 60px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    color: #fff;
+}
+
+.instagram-icon2 {
+    width: 50px;
+    position: absolute; 
+    top: 50px; 
+    right: 235px;
+}
+
+.Copyright {
+    position: absolute; 
+    bottom: 20px; 
+    left: 250px; 
+    color: #fff;
+}
+
+.menu2 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu2 nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu2 nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu2 nav {
+    position: absolute;
+    top: 20px;
+    right: 250px;
+}
+
+.informacion1 {
+    position: absolute;
+    text-align: left;
+    left: 250px; 
+    top: 20px; 
+}
+
+.informacion2 {
+    position: absolute;
+    text-align: left;
+    left: 250px; 
+    top: 45px;
+}
