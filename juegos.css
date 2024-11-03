@@ -1,0 +1,82 @@
+/* Contenedor principal */
+.page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1215px;
+    margin: 0 auto;
+}
+
+/* Imagen del juego */
+.image-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-block img {
+    width: 520px; 
+    height: 201px; 
+}
+
+/* Contenedor para video y descripción */
+.content-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilo del video */
+.video {
+    flex: 0 0 auto; /* No permitir que el video crezca */
+    width: 590px; /* Ancho específico del video */
+    height: 330px; /* Altura específica del video */
+    margin-right: 20px; /* Espacio a la derecha del video */
+}
+
+/* Estilo de la descripción */
+.description {
+    flex: 2; /* Hacer que la descripción ocupe más espacio */
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.2rem; /* Aumentar el tamaño de la fuente */
+}
+
+/* Contenedor de los enlaces */
+.links {
+    margin-top: 15px;
+    text-align: center; /* Centra solo los enlaces */
+}
+
+/* Estilo de los enlaces */
+.links a {
+    color: #b44b4b;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilo de los botones */
+.button-container {
+    margin-top: 20px; /* Espacio antes de los botones */
+    display: flex;
+    justify-content: center; /* Centrar botones */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.button {
+    background-color: #b44b4b;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a33e3e;
+}
