@@ -72,54 +72,41 @@ main {
 }
 
 .instagram-icon2 {
-    width: 50px;
-    position: absolute; 
-    top: 50px; 
-    right: 235px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.Copyright {
-    position: absolute; 
-    bottom: 20px; 
-    left: 250px; 
-    color: #fff;
+.instagram-icon2 img {
+  height: 35px;
+  width: auto;
 }
 
-.menu2 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.informacionpie {
+  text-align: center;
+  font-size: 17px;
+  max-width: 1040px; /* Ajusta el valor según el ancho deseado */
+  margin: auto;
 }
 
-.menu2 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 17px;
+.informacionpie span {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-.menu2 nav ul li a:hover {
-    text-decoration: underline;
+.informacionpie span:hover {
+  color: #1da1f2;
 }
 
-.menu2 nav {
-    position: absolute;
-    top: 20px;
-    right: 250px;
-}
 
 .informacion1 {
-    position: absolute;
-    text-align: left;
-    left: 250px;
-    top: 20px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .informacion2 {
-    position: absolute;
-    text-align: left;
-    left: 250px;
-    top: 45px;
+  display: flex;
 }
-
 
 
