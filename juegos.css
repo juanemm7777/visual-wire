@@ -68,16 +68,16 @@
 }
 
 .button {
-    background-color: #ffff;
-    color: ##000000;
+    background-color: #ffffff; /* Cambiado de #ffff a #ffffff */
+    color: #000000; /* Eliminado el segundo '#' */
     padding: 12px 24px;
     border-radius: 20px;
     text-transform: uppercase;
     text-decoration: none; /* Sin subrayado */
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Añadido color para la transición */
 }
 
 .button:hover {
-    background-color: #fff;
-    color: ##000000;
+    background-color: #e0e0e0; /* Color de fondo más claro para el hover */
+    color: #000000;
 }
