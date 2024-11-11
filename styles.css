@@ -19,9 +19,15 @@ header {
   height: 100px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
+
 
 footer {
   background-color: #000000;
