@@ -36,7 +36,7 @@
 /* Estilo de la descripción */
 .description {
     flex: 2; /* Hacer que la descripción ocupe más espacio */
-    color: #555;
+    color: #000000;
     line-height: 1.6;
     font-size: 1.2rem; /* Aumentar el tamaño de la fuente */
 }
@@ -49,7 +49,7 @@
 
 /* Estilo de los enlaces */
 .links a {
-    color: #b44b4b;
+    color: #000000;
     text-decoration: none;
     margin: 0 8px;
 }
