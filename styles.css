@@ -10,6 +10,8 @@ body {
     min-height: 100vh; /* Asegura que el body ocupe toda la altura */
     font-family: Arial, sans-serif;
     overflow: auto; /* Permitir desplazamiento en pantallas grandes */
+    background-color: #000;
+     color: #fff;
 }
 
 header {
