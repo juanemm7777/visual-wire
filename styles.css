@@ -115,4 +115,60 @@ main {
   display: flex;
 }
 
+@media (max-width: 1765px) {
+
+
+  .logo img {
+    height: 70px;
+  }
+  
+}
+
+/* Pantallas menores a 1400px */
+@media (max-width: 1400px) {
+
+
+  .logo img {
+    height: 60px;
+  }
+
+}
+
+/* Pantallas menores a 1080px */
+@media (max-width: 1080px) {
+ 
+
+  .logo img {
+    height: 50px;
+  }
+
+}
+
+/* Estilos para pantallas de hasta 1090px */
+@media only screen and (max-width: 1010px) {
+  body {
+    margin: 0; /* Asegura que no haya márgenes generales */
+    padding: 0; /* Asegura que no haya paddings generales */
+  }
+
+
+  .instagram-icon1 {
+    width: 40px;
+    top: 20px;
+    right: 50px;
+  }
+
+
+
+}
+
+/* Estilos para pantallas de hasta 768px (específicamente para dispositivos más pequeños) */
+@media only screen and (max-width: 768px) {
+
+  .logo img{
+    left: 30px;
+  }
+
+}
+
 
