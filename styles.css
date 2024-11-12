@@ -36,7 +36,7 @@ footer {
 
 main {
   flex: 1;
-  padding: 20px;
+
   overflow: auto;
 }
 
@@ -115,6 +115,7 @@ main {
   display: flex;
 }
 
+
 @media (max-width: 1765px) {
 
 
@@ -170,5 +171,3 @@ main {
   }
 
 }
-
-
