@@ -1,6 +1,5 @@
 .content1, .content2 {
   display: flex;
-  padding: 50px 0;
   margin-left: 350px;
   margin-right: 350px;
   align-items: center;
