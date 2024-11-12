@@ -64,7 +64,10 @@
       height: 480px;
       width: 480px;
     }
-  
+
+    .logo img {
+      height: 70px;
+    }
     
   }
   
@@ -89,7 +92,10 @@
       height: 450px;
       width: 450px;
     }
-  
+
+    .logo img {
+      height: 60px;
+    }
 
   }
   
@@ -112,6 +118,10 @@
     .image {
       height: 400px;
       width: 400px;
+    }
+
+    .logo img {
+      height: 50px;
     }
 
   }
@@ -141,7 +151,8 @@
       top: 20px;
       right: 50px;
     }
-  
+
+
 
   }
   
@@ -157,6 +168,10 @@
       font-size: 14px; /* Asegura tamaño de fuente igual */
       margin-left: 0;
       margin-right: 0;
+    }
+
+    .logo img{
+      left: 30px;
     }
   
   }
