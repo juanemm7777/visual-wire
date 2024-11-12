@@ -44,3 +44,119 @@
   height: 550px;
   width: 550px;
 }
+
+  @media (max-width: 1765px) {
+    
+    .content1, .content2 {
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+  
+    .text, .text2 {
+      font-size: 16px;
+    }
+  
+    .text h2, .text2 h2 {
+      font-size: 40px;
+    }
+  
+    .image {
+      height: 480px;
+      width: 480px;
+    }
+  
+    
+  }
+  
+  /* Pantallas menores a 1400px */
+  @media (max-width: 1400px) {
+   
+  
+    .content1, .content2 {
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+  
+    .text, .text2 {
+      font-size: 14px;
+    }
+  
+    .text h2, .text2 h2 {
+      font-size: 35px;
+    }
+  
+    .image {
+      height: 450px;
+      width: 450px;
+    }
+  
+
+  }
+  
+  /* Pantallas menores a 1080px */
+  @media (max-width: 1080px) {
+   
+    .content1, .content2 {
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+  
+    .text, .text2 {
+      font-size: 12px;
+    }
+  
+    .text h2, .text2 h2 {
+      font-size: 30px;
+    }
+  
+    .image {
+      height: 400px;
+      width: 400px;
+    }
+
+  }
+  
+  /* Estilos para pantallas de hasta 1090px */
+  @media only screen and (max-width: 1010px) {
+    body {
+      margin: 0; /* Asegura que no haya márgenes generales */
+      padding: 0; /* Asegura que no haya paddings generales */
+    }
+  
+    
+    .content1, .content2 {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .text, .text2 {
+      font-size: 16px; /* Ajuste de fuente para ambos */
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .instagram-icon1 {
+      width: 40px;
+      top: 20px;
+      right: 50px;
+    }
+  
+
+  }
+  
+  /* Estilos para pantallas de hasta 768px (específicamente para dispositivos más pequeños) */
+  @media only screen and (max-width: 768px) {
+    .content1, .content2 {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .text, .text2 {
+      font-size: 14px; /* Asegura tamaño de fuente igual */
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+  }
