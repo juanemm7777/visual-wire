@@ -81,3 +81,54 @@
     background-color: #e0e0e0; /* Color de fondo más claro para el hover */
     color: #000000;
 }
+
+/* Pantallas medianas (menores a 1200px) */
+@media (max-width: 1200px) {
+    .image-block img {
+        width: 420px;
+        height: 161px;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Pantallas pequeñas (menores a 768px) */
+@media (max-width: 768px) {
+    .image-block img {
+        width: 320px;
+        height: 123px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Pantallas muy pequeñas (menores a 480px) */
+@media (max-width: 480px) {
+    .image-block img {
+        width: 250px;
+        height: 96px;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+
+    .button {
+        padding: 6px 12px;
+        font-size: 0.7rem;
+    }
+}
