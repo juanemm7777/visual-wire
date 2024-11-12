@@ -44,11 +44,11 @@
   width: 550px;
 }
 
- @media (max-width: 1765px) {
+  @media (max-width: 1765px) {
     
     .content1, .content2 {
-      margin-left: 250px;
-      margin-right: 250px;
+      margin-left: 300px;
+      margin-right: 300px;
     }
   
     .text, .text2 {
@@ -63,6 +63,7 @@
       height: 480px;
       width: 480px;
     }
+    
 
   }
   
@@ -71,8 +72,8 @@
    
   
     .content1, .content2 {
-      margin-left: 200px;
-      margin-right: 200px;
+      margin-left: 250px;
+      margin-right: 250px;
     }
   
     .text, .text2 {
@@ -94,8 +95,8 @@
   @media (max-width: 1080px) {
    
     .content1, .content2 {
-      margin-left: 150px;
-      margin-right: 150px;
+      margin-left: 200px;
+      margin-right: 200px;
     }
   
     .text, .text2 {
