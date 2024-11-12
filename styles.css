@@ -115,12 +115,19 @@ main {
   display: flex;
 }
 
-
 @media (max-width: 1765px) {
 
 
   .logo img {
     height: 70px;
+  }
+
+  .titulopie {
+    font-size: 60px;
+  }
+
+  .informacionpie span {
+    font-size: 15px;
   }
   
 }
@@ -133,6 +140,14 @@ main {
     height: 60px;
   }
 
+  .titulopie {
+    font-size: 50px;
+  }
+
+  .informacionpie span {
+    font-size: 14px;
+  }
+
 }
 
 /* Pantallas menores a 1080px */
@@ -141,6 +156,14 @@ main {
 
   .logo img {
     height: 50px;
+  }
+
+  .titulopie {
+    font-size: 45px;
+  }
+
+  .informacionpie span {
+    font-size: 12px;
   }
 
 }
@@ -157,6 +180,26 @@ main {
     width: 40px;
     top: 20px;
     right: 50px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .logopie img {
+    height: 120px;
+  }
+
+  .titulopie {
+    font-size: 30px;
+  }
+
+  .informacionpie {
+    font-size: 16px;
+  }
+
+  .copyright p {
+    font-size: 14px;
   }
 
 
