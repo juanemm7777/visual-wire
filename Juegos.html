@@ -16,9 +16,23 @@
                 <img src="logo.png" alt="Logo Visual Wire Studio">
             </a>
         </div>  
-        <div class="menu1">
-            <nav>
-                <ul>
+                            <!-- Menú 1: Solo visible en pantallas grandes (mayores a 1010px) -->
+    <div class="menu1">
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <!-- Menú 2: Menú hamburguesa, solo visible en pantallas pequeñas (menores a 1010px) -->
+        <div class="menu2">
+            <button class="hamburger" onclick="toggleMenu('navMenu2')">☰</button>
+            <nav id="navMenu2">
+                <button class="close-btn" onclick="toggleMenu('navMenu2')">X</button>
+                <ul class="icons">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="Juegos.html">Juegos</a></li>
                     <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
@@ -85,6 +99,7 @@
   </div>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
 
