@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Visual Wire Studio</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+
+<body>
+    <header>
+            <div class="title">Visual Wire Studio</div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo Visual Wire Studio">
+            </a>
+        </div>  
+                    <!-- Menú 1: Solo visible en pantallas grandes (mayores a 1010px) -->
+    <div class="menu1">
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <!-- Menú 2: Menú hamburguesa, solo visible en pantallas pequeñas (menores a 1010px) -->
+        <div class="menu2">
+            <button class="hamburger" onclick="toggleMenu('navMenu2')">☰</button>
+            <nav id="navMenu2">
+                <button class="close-btn" onclick="toggleMenu('navMenu2')">X</button>
+                <ul class="icons">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>
+            <a href="https://www.instagram.com/visualwirestudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <img src="ig.png" alt="Instagram Logo" class="instagram-icon1">
+            </a>
+        </p>
+    </header>
+
+    <main>
+
+       <section class="content1">
+        <img src="futuro.png" class="image">
+        <div class="text">
+            <h2>Enfréntate a los secretos ocultos de una isla ancestral</h2>
+            <p>En Wisdm, los jugadores encarnaran a uno de los sobrevivientes de un naufragio, que llegan a una isla aparentemente deshabitada y misteriosa. Pronto, descubren una colosal criatura mecánica que parece desafiar la tecnología de su época. Mientras exploran, los sobrevivientes encuentran un pueblo cuyos habitantes advierten sobre una entidad que habita en la cima de la montaña. Sin embargo, a medida que se acercan al corazón de la isla, descubren que la verdadera amenaza es la líder corrupta de la isla, una guardiana ancestral corrompida que ha manipulado todo a su favor. </p>
+        </div>
+    </section>
+    
+    <section class="content2">
+        <img src="futuro.png" class="image">
+        <div class="text2">
+            <h2>Usa tus habilidades y reflejos para sobrevivir</h2>
+            <p>Wisdm combina el combate cuerpo a cuerpo característico de los juegos de peleas con una perspectiva 2D y vista aérea. Los jugadores podrán usar una variedad de movimientos y habilidades especiales para enfrentarse a enemigos en combates estratégicos que requieren precisión y tácticas. Además de las batallas, los jugadores deberán explorar el entorno, resolver acertijos y desentrañar misterios que revelen el trasfondo oscuro de la isla.</p>
+        </div>
+    </section>
+
+    <section class="content1">
+        <img src="futuro.png" class="image">
+        <div class="text">
+            <h2>Belleza y maravilla en un mundo abandonado</h2>
+            <p>Paisajes naturales llenos de vida y zonas mecánicas de apariencia avanzada. Cada rincón de la isla esconde pistas sobre una cultura extinta, leyendas locales y extrañas estructuras, que parecen haber sido abandonadas abruptamente. La cima de la montaña, envuelta en niebla y misterio, actúa como una fortaleza, resguardando a la entidad y los secretos más oscuros. Los ambientes cambian desde selvas frondosas hasta ruinas metálicas y laboratorios olvidados, creando una atmósfera que sumerge a los jugadores en un mundo donde lo natural y lo mecánico coexisten en tensión.</p>
+        </div>
+    </section>
+        
+    </main>
+
+    <footer>
+            <p class="informacionpie">Wisdm está siendo desarrollado por Visual Wire en Bogotá, Colombia. Somos un equipo de siete personas que, además de crear el juego, somos responsables de desarrollar estos sitios web, editar los tráilers del juego, responder preguntas en las redes sociales y mucho más. Aunque es mucho trabajo, nos encanta hacerlo y nos encantaría que nos apoyaras en el proceso.</p>
+
+  <div class="instagram-icon2">
+    <a href="https://www.instagram.com/visualwirestudio" target="_blank">
+      <img src="ig.png" alt="Instagram Icon">
+    </a>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright © 2024 Visual Wire Studio.</p>
+  </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
